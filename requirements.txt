@@ -8,3 +8,4 @@ pyyaml
 jsonpatch
 ollama
 email-validator
+requests

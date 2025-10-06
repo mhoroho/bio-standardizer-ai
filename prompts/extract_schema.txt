@@ -1,0 +1,31 @@
+Return ONLY a single JSON object with EXACTLY these keys (include them even if null or []):
+full_name, current_title, department_or_practice, location, email, phone, linkedin_url, summary_paragraph, expertise_bullets, selected_experience, education, certifications, affiliations, awards.
+No extra keys. No prose. No code fences.
+
+Rules:
+- If unknown: use null or [].
+- Phone: E.164 if possible; else digits.
+- Text must be third-person.
+
+SCHEMA (types and keys):
+{
+  "full_name": "string",
+  "current_title": "string",
+  "department_or_practice": "string",
+  "location": "string",
+  "email": "string",
+  "phone": "string",
+  "linkedin_url": "string",
+  "summary_paragraph": "string",
+  "expertise_bullets": ["string"],
+  "selected_experience": [
+    {"client_or_project": "string", "role": "string", "impact": "string"}
+  ],
+  "education": ["string"],
+  "certifications": ["string"],
+  "affiliations": ["string"],
+  "awards": ["string"]
+}
+
+BIO TEXT:
+<<<BIO>>>
