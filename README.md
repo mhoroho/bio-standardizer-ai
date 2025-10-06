@@ -1,0 +1,1 @@
+This project standardizes bios in Word using Python and AI.

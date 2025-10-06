@@ -1,0 +1,9 @@
+python-docx
+lxml
+pydantic
+phonenumbers
+tldextract
+rapidfuzz
+pyyaml
+jsonpatch
+ollama
