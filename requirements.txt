@@ -7,3 +7,4 @@ rapidfuzz
 pyyaml
 jsonpatch
 ollama
+email-validator
