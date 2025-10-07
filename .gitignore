@@ -11,3 +11,6 @@ output/
 
 # Environment variables
 .env
+
+#API Key
+API_Key.txt
