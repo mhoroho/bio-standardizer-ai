@@ -38,6 +38,7 @@ def ollama_json(
     temperature: float = 0.1,
     timeout: float = 600.0,
     num_ctx: int = 8192,
+    num_thread: int = 8,
     max_retries: int = 3,
     debug: bool = False,
 ) -> Dict[str, Any]:

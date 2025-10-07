@@ -9,3 +9,4 @@ jsonpatch
 ollama
 email-validator
 requests
+openai
